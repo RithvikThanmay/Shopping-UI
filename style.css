@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: black;
+    color: white;
+    margin: 50px;
+}
+.container{
+    width: 100vw;
+    height: 100vw;
+} 
+
+#product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 5px;
+    padding: 10px;
+}
+
+.product{
+    height: 650px;
+    width: 400px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.product div{
+    padding: 5px;
+}
+
+.product img {
+    height: 100px;
+    width: 100px;
+}
+
+.product span, .product p{
+    margin: 5px 10px;
+    padding: 5px ;
+}
+
+.product button{
+    padding: 5px 10px;
+    margin: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.product button:hover{
+    color: white;
+    background-color: green;
+}
+
+.cart-container{
+    width: 80wh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: -150px;
+}
+
+.cart-container h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#cart{
+    margin: 5px;
+    padding: 10px;
+}
+
+.cart-item{
+    margin: 5px;
+    padding: 10px;
+}
+
+.cart-item span{
+    margin: 0px 3px;
+    padding: 3px;
+}
+
+.cart-item input{
+    margin: 0px 3px;
+    padding: 3px;
+    width: 50px;
+}
+
+#total-bill{
+    margin-bottom: 300px;
+}
+
+#button{
+    width: 120px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 25px;
+    position: absolute;
+    right: 100px;
+    top: 4650px;
+    cursor: pointer;
+}
+
